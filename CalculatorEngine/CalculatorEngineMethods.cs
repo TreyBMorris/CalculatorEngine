@@ -17,6 +17,16 @@ namespace CalculatorEngine
 			result.Operation = firstNumber + " + " + secondNumber + "= ";
 			return result;
 		}
+		
+		public static CalculationResult Subtract(double firstNumber, double secondNumber) 
+		{
+			CalculationResult result = new CalculationResult();
+			result.Error = "";
+			result.IsSuccess = true;
+			result.Result= firstNumber - secondNumber;
+			result.Operation = firstNumber + " - " + secondNumber + "= ";
+			return result;
+		}
 
 	}
 }

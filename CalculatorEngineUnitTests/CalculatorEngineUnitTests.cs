@@ -17,7 +17,19 @@ namespace CalculatorEngineUnitTests
 			CalculationResult result = CalculatorEngineMethods.Add(firstNumber, secondNumber);
 
 			//Assert
-			Assert.That(result.Result.Equals(result.Result));
+			Assert.That(result.Result.Equals(Expected));
+		}
+
+		[Test]
+		public void CalculatorEngine_SubtractTwoFloatingPoints_ReturnsDifference()
+		{
+			double firstNumber = 27.93;
+			double secondNumber = 4.0;
+			double Expected = 23.93;
+
+			CalculationResult result = CalculatorEngineMethods.Subtract(firstNumber, secondNumber);
+
+			Assert.That(result.Result.Equals(Expected));
 		}
 	}
 }

@@ -20,3 +20,4 @@ C:\Users\Piss Boi\Documents\Coding\DOTNET\CalculatorDOTNET\CalculatorEngine\obj\
 C:\Users\Piss Boi\Documents\Coding\DOTNET\CalculatorDOTNET\CalculatorEngine\obj\Debug\net8.0\refint\CalculatorEngine.dll
 C:\Users\Piss Boi\Documents\Coding\DOTNET\CalculatorDOTNET\CalculatorEngine\obj\Debug\net8.0\CalculatorEngine.pdb
 C:\Users\Piss Boi\Documents\Coding\DOTNET\CalculatorDOTNET\CalculatorEngine\obj\Debug\net8.0\ref\CalculatorEngine.dll
+C:\Users\Piss Boi\Documents\Coding\DOTNET\CalculatorDOTNET\CalculatorEngine\obj\Debug\net8.0\CalculatorEngine.sourcelink.json

@@ -202,3 +202,4 @@ C:\Users\Piss Boi\Documents\Coding\DOTNET\CalculatorDOTNET\CalculatorEngineUnitT
 C:\Users\Piss Boi\Documents\Coding\DOTNET\CalculatorDOTNET\CalculatorEngineUnitTests\obj\Debug\net8.0\CalculatorEngineUnitTests.pdb
 C:\Users\Piss Boi\Documents\Coding\DOTNET\CalculatorDOTNET\CalculatorEngineUnitTests\obj\Debug\net8.0\CalculatorEngineUnitTests.genruntimeconfig.cache
 C:\Users\Piss Boi\Documents\Coding\DOTNET\CalculatorDOTNET\CalculatorEngineUnitTests\obj\Debug\net8.0\ref\CalculatorEngineUnitTests.dll
+C:\Users\Piss Boi\Documents\Coding\DOTNET\CalculatorDOTNET\CalculatorEngineUnitTests\obj\Debug\net8.0\CalculatorEngineUnitTests.sourcelink.json

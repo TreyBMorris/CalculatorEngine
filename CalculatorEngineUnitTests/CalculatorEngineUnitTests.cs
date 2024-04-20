@@ -1,4 +1,5 @@
 using Microsoft.VisualBasic;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace CalculatorEngineUnitTests
 {
@@ -120,6 +121,35 @@ namespace CalculatorEngineUnitTests
 			string Error = "Second number cannot be Zero";
 
 			CalculationResult result = CalculatorEngineMethods.Logarithm(firstNumber, secondNumber);
+
+			Assert.That(result.Result.Equals(0.0));
+			Assert.That(result.Error.Equals(Error));
+			Assert.That(result.IsSuccess.Equals(false));
+		}
+
+		[Test]
+		public void CalculatorEngine_NthRoot_OfTwoFloatingPointNumbers()
+		{
+			double firstNumber = 8.0;
+			double secondNumber = 3.0;
+			double Expected = 2.0;
+			string Error = "";
+
+			CalculationResult result = CalculatorEngineMethods.Root(firstNumber, secondNumber);
+
+			Assert.That(result.Result.Equals(Expected));
+			Assert.That(result.Error.Equals(Error));
+			Assert.That(result.IsSuccess.Equals(true));
+		}
+
+		[Test]
+		public void CalculatorEngine_Root_WhereRootIsZero_ThrowsError()
+		{
+			double firstNumber = 8.0;
+			double secondNumber = 0.0;
+			string Error = "Second number cannot be zero";
+
+			CalculationResult result = CalculatorEngineMethods.Root(firstNumber, secondNumber);
 
 			Assert.That(result.Result.Equals(0.0));
 			Assert.That(result.Error.Equals(Error));

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Piss Boi\\Documents\\Coding\\DOTNET\\CalculatorEngine\\CalculatorEngine.csproj",
+      "projectUniqueName": "C:\\Users\\Piss Boi\\Documents\\Coding\\DOTNET\\CalculatorDOTNET\\CalculatorEngine\\CalculatorEngine.csproj",
       "projectName": "CalculatorEngine",
-      "projectPath": "C:\\Users\\Piss Boi\\Documents\\Coding\\DOTNET\\CalculatorEngine\\CalculatorEngine.csproj",
+      "projectPath": "C:\\Users\\Piss Boi\\Documents\\Coding\\DOTNET\\CalculatorDOTNET\\CalculatorEngine\\CalculatorEngine.csproj",
       "packagesPath": "C:\\Users\\Piss Boi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Piss Boi\\Documents\\Coding\\DOTNET\\CalculatorEngine\\obj\\",
+      "outputPath": "C:\\Users\\Piss Boi\\Documents\\Coding\\DOTNET\\CalculatorDOTNET\\CalculatorEngine\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

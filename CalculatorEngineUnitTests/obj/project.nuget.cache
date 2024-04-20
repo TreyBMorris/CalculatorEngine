@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NGbkuZ0GOKJPcwGNxTiGfafkdL6vZonnGeHNF9SelfgACToFQCFvULqFZxEbZgnmCpgZEQNgR/2Mden4pEb89Q==",
+  "dgSpecHash": "8NG4Q5SgWE0+jgCQqBAq9XV2gL5e+WkR6vGrXbsto/CDySykUzDMVPh/MBbuGZFeAgDtxVqxhEA/B2x3+8NRZw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Piss Boi\\Documents\\Coding\\DOTNET\\CalculatorEngineUnitTests\\CalculatorEngineUnitTests.csproj",
+  "projectFilePath": "C:\\Users\\Piss Boi\\Documents\\Coding\\DOTNET\\CalculatorDOTNET\\CalculatorEngineUnitTests\\CalculatorEngineUnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Piss Boi\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Piss Boi\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",

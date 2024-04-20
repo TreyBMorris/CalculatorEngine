@@ -67,10 +67,7 @@ namespace CalculatorEngineUnitTests
 			double secondNumber = 0.0;
 
 			String Error = "Not a number";
-			CalculationResult result = CalculatorEngineMethods.Divide(firstNumber, secondNumber);
-
-			Assert.That(result.IsSuccess.Equals(false));
-			Assert.That(result.Error.Equals(Error));
+			Assert.Throws<CalculatorEngine.DivisionByZeroException>(() => CalculatorEngineMethods.Divide(firstNumber, secondNumber));
 		}
 	}
 }

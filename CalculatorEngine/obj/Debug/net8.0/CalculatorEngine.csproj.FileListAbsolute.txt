@@ -1,0 +1,11 @@
+C:\Users\Piss Boi\Documents\Coding\DOTNET\CalculatorEngine\obj\Debug\net8.0\CalculatorEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Piss Boi\Documents\Coding\DOTNET\CalculatorEngine\obj\Debug\net8.0\CalculatorEngine.AssemblyInfoInputs.cache
+C:\Users\Piss Boi\Documents\Coding\DOTNET\CalculatorEngine\obj\Debug\net8.0\CalculatorEngine.AssemblyInfo.cs
+C:\Users\Piss Boi\Documents\Coding\DOTNET\CalculatorEngine\obj\Debug\net8.0\CalculatorEngine.csproj.CoreCompileInputs.cache
+C:\Users\Piss Boi\Documents\Coding\DOTNET\CalculatorEngine\bin\Debug\net8.0\CalculatorEngine.deps.json
+C:\Users\Piss Boi\Documents\Coding\DOTNET\CalculatorEngine\bin\Debug\net8.0\CalculatorEngine.dll
+C:\Users\Piss Boi\Documents\Coding\DOTNET\CalculatorEngine\bin\Debug\net8.0\CalculatorEngine.pdb
+C:\Users\Piss Boi\Documents\Coding\DOTNET\CalculatorEngine\obj\Debug\net8.0\CalculatorEngine.dll
+C:\Users\Piss Boi\Documents\Coding\DOTNET\CalculatorEngine\obj\Debug\net8.0\refint\CalculatorEngine.dll
+C:\Users\Piss Boi\Documents\Coding\DOTNET\CalculatorEngine\obj\Debug\net8.0\CalculatorEngine.pdb
+C:\Users\Piss Boi\Documents\Coding\DOTNET\CalculatorEngine\obj\Debug\net8.0\ref\CalculatorEngine.dll

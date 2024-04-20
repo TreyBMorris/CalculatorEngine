@@ -66,8 +66,64 @@ namespace CalculatorEngineUnitTests
 			double firstNumber = 3.0;
 			double secondNumber = 0.0;
 
-			String Error = "Not a number";
 			Assert.Throws<CalculatorEngine.DivisionByZeroException>(() => CalculatorEngineMethods.Divide(firstNumber, secondNumber));
+		}
+
+		[Test]
+		public void CalculatorEngine_RaiseToPower_TwoFloatingPointNumbers()
+		{
+			double firstNumber = 2.0;
+			double secondNumber = 3.0;
+			double Expected = 8.0;
+
+			CalculationResult result = CalculatorEngineMethods.Power(firstNumber, secondNumber);
+
+			Assert.That(result.Result.Equals(Expected));
+			Assert.That(result.IsSuccess.Equals(true));
+
+		}
+
+		[Test]
+		public void CalculatorEngine_LogarithmOf_TwoFloatingPointNumbers()
+		{
+			double firstNumber = 8.0;
+			double secondNumber = 2.0;
+			double Expected = 3.0;
+			string Error = "";
+
+			CalculationResult result = CalculatorEngineMethods.Logarithm(firstNumber, secondNumber);
+
+			Assert.That(result.Result.Equals(Expected));
+			Assert.That(result.Error.Equals(Error));
+			Assert.That(result.IsSuccess.Equals(true));
+		}
+
+		[Test]
+		public void CalculatorEngine_Logarithm_WhereBaseAIsZero_ThrowsError()
+		{
+			double firstNumber = 0.0;
+			double secondNumber = 2.0;
+			string Error = "First number cannot be less than or equal to zero";
+
+			CalculationResult result = CalculatorEngineMethods.Logarithm(firstNumber, secondNumber);
+
+			Assert.That(result.Result.Equals(0.0));
+			Assert.That(result.Error.Equals(Error));
+			Assert.That(result.IsSuccess.Equals(false));
+		}
+
+		[Test]
+		public void CalculatorEngine_Logarithm_WhereBaseB_isZero_ThrowsError()
+		{
+			double firstNumber = 8.0;
+			double secondNumber = 0.0;
+			string Error = "Second number cannot be Zero";
+
+			CalculationResult result = CalculatorEngineMethods.Logarithm(firstNumber, secondNumber);
+
+			Assert.That(result.Result.Equals(0.0));
+			Assert.That(result.Error.Equals(Error));
+			Assert.That(result.IsSuccess.Equals(false));
 		}
 	}
 }

@@ -18,6 +18,7 @@ namespace CalculatorEngineUnitTests
 
 			//Assert
 			Assert.That(result.Result.Equals(Expected));
+			Assert.That(result.IsSuccess.Equals(true));
 		}
 
 		[Test]
@@ -30,6 +31,46 @@ namespace CalculatorEngineUnitTests
 			CalculationResult result = CalculatorEngineMethods.Subtract(firstNumber, secondNumber);
 
 			Assert.That(result.Result.Equals(Expected));
+			Assert.That(result.IsSuccess.Equals(true));
+		}
+
+		[Test]
+		public void CalculatorEngine_MultiplyTwoFloatingPoints_ReturnsProduct()
+		{
+			double firstNumber = 5.0;
+			double secondNumber = 7.1;
+			double Expected = 35.5;
+
+			CalculationResult result = CalculatorEngineMethods.Multiply(firstNumber, secondNumber);
+
+			Assert.That(result.Result.Equals(Expected));
+			Assert.That(result.IsSuccess.Equals(true));
+		}
+
+		[Test]
+		public void CalculatorEngine_DivideTwoFloatingPoints_ReturnsQuotient()
+		{
+			double firstNumber = 3.0;
+			double secondNumber = 9.0;
+			double Expected = 3.0 / 9.0;
+
+			CalculationResult result = CalculatorEngineMethods.Divide(firstNumber, secondNumber);
+
+			Assert.That(result.Result.Equals(Expected));
+			Assert.That(result.IsSuccess.Equals(true));
+		}
+
+		[Test]
+		public void CalculatorEngine_DivideByZero_ThrowsException()
+		{
+			double firstNumber = 3.0;
+			double secondNumber = 0.0;
+
+			String Error = "Not a number";
+			CalculationResult result = CalculatorEngineMethods.Divide(firstNumber, secondNumber);
+
+			Assert.That(result.IsSuccess.Equals(false));
+			Assert.That(result.Error.Equals(Error));
 		}
 	}
 }

@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Piss Boi\\Documents\\Coding\\DOTNET\\CalculatorDOTNET\\CalculatorEngine\\CalculatorEngine.csproj": {}
+    "E:\\Trey\\Coding\\DOTNET\\CalculatorEngine\\CalculatorEngine\\CalculatorEngine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Piss Boi\\Documents\\Coding\\DOTNET\\CalculatorDOTNET\\CalculatorEngine\\CalculatorEngine.csproj": {
+    "E:\\Trey\\Coding\\DOTNET\\CalculatorEngine\\CalculatorEngine\\CalculatorEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Piss Boi\\Documents\\Coding\\DOTNET\\CalculatorDOTNET\\CalculatorEngine\\CalculatorEngine.csproj",
+        "projectUniqueName": "E:\\Trey\\Coding\\DOTNET\\CalculatorEngine\\CalculatorEngine\\CalculatorEngine.csproj",
         "projectName": "CalculatorEngine",
-        "projectPath": "C:\\Users\\Piss Boi\\Documents\\Coding\\DOTNET\\CalculatorDOTNET\\CalculatorEngine\\CalculatorEngine.csproj",
-        "packagesPath": "C:\\Users\\Piss Boi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Piss Boi\\Documents\\Coding\\DOTNET\\CalculatorDOTNET\\CalculatorEngine\\obj\\",
+        "projectPath": "E:\\Trey\\Coding\\DOTNET\\CalculatorEngine\\CalculatorEngine\\CalculatorEngine.csproj",
+        "packagesPath": "C:\\Users\\Trey\\.nuget\\packages\\",
+        "outputPath": "E:\\Trey\\Coding\\DOTNET\\CalculatorEngine\\CalculatorEngine\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Piss Boi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Trey\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,12 +50,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

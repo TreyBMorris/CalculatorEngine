@@ -1,17 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GNHft14bgaq7Q9FPFCEyzI4ZwDAJKljq7bwBVkPas8jbgVW/LYiRSjCrJ1NfLQT08QEHffG841P9B32q/MCS2g==",
+  "dgSpecHash": "EfZdcIA4S8gk6IDaZ1qqcdPnq6wHiohqUu/iqWxE4BB1/dipiAUgEVVQ5RsyA7dBZjTV2/Ltw37e8CEFvnNcDg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Piss Boi\\Documents\\Coding\\DOTNET\\CalculatorDOTNET\\CalculatorController\\CalculatorController.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Piss Boi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "C:\\Users\\Piss Boi\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\Piss Boi\\.nuget\\packages\\nunit\\4.1.0\\nunit.4.1.0.nupkg.sha512",
-    "C:\\Users\\Piss Boi\\.nuget\\packages\\nunit.consolerunner\\3.17.0\\nunit.consolerunner.3.17.0.nupkg.sha512",
-    "C:\\Users\\Piss Boi\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
-    "C:\\Users\\Piss Boi\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
-    "C:\\Users\\Piss Boi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
-    "C:\\Users\\Piss Boi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
-  ],
+  "projectFilePath": "E:\\Trey\\Coding\\DOTNET\\CalculatorEngine\\CalculatorController\\CalculatorController.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

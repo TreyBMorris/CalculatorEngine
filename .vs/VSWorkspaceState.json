@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CalculatorEngineUnitTests"
   ],
-  "SelectedNode": "\\Calculator.sln",
+  "SelectedNode": "\\CalculatorEngineUnitTests\\CalculatorEngineUnitTests.cs",
   "PreviewInSolutionExplorer": false
 }

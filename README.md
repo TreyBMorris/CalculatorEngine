@@ -18,9 +18,12 @@ After completing my project for the semester, I wanted to challenge myself to se
 This application is being developed on a Windows using Visual Studio 2022. I am using GitHub actions to run the NUnit unit tests in my repository, to make sure that when new code is pushed that all tests are passing and that bad code is not being pushed. The goal for when the project is finished, is to deploy it on the web as an API, where a frontend application will be able to make HTTP requests.
 
 ## Architecture
-This application will have similar architecture as the previous project, but will not have a UI or end-to-end tests in this repository. The end-to-end tests and frontend UI will have its own repository and will be linked to this repository when finished.
-[image here]()
+This application will have similar architecture as the previous project, but will not have a UI or end-to-end tests in this repository. The end-to-end tests and frontend UI will have its own repository and will be linked to this repository when finished. 
+The design pattern of the entire application mainly adhears to the MVC pattern. The diagram below, inspired by my professor Jeff Adkisson's diagram for our project, lays out a good example of how our architecture looks for this project.
 
+![arch-diagram](image.png)
+
+Firstly, our CalculatorEngineMethods class contains our business logic. This has all the arithmetic functions, such as add, subtract, multiply, etc. This is referenced both by our CalculatorEngine Unit tests and our controller for our web API. The Unit tests are written in NUnit, since this is C#. Our controller also includes a model called "CalculationRequest" that contains the body needed for an HTTP request.
 
 ## Executing Unit Tests
 1. Clone the git repository above using the blue code button. You can use GitHub desktop, downloading the zip file, or the git CLI to clone this repository.

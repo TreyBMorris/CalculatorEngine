@@ -71,3 +71,22 @@ All endpoints are POST requests that return the information.
 #### Single Parameters
 - Factorial `/factorial`
 - Receiprocal `/receiprocal`
+
+### Example Request and Response
+POST Request /api/calculator/add:
+```json
+{
+  "firstNumber": 5,
+  "secondNumber": 6
+}
+```
+
+Response:
+```json
+{
+    "result": 11,
+    "isSuccess": true,
+    "operation": "5 + 6 = ",
+    "error": ""
+}
+```

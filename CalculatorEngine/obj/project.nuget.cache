@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "kmV5AU9hqUMNHgH2hCvWnvIAnE+vdDy2AUKTjh1g1kYA6ZwFO/Qefk1dNQGvBL16TGHI27EzyJOY1ntq9ZJOWA==",
+=======
   "dgSpecHash": "1blLWwfxq49nde720TNX1VmtYAnTWcKKwQ8yf+eaUYvwzWgr+V4Zav3sudotw9QS5bjBHz6IhgqHlzd2vLFYCQ==",
+>>>>>>> fb878e5cfb8cbf3b9ce63fbe5886a5408a2b073e
   "success": true,
   "projectFilePath": "E:\\Trey\\Coding\\DOTNET\\CalculatorEngine\\CalculatorEngine\\CalculatorEngine.csproj",
   "expectedPackageFiles": [],

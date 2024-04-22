@@ -1,8 +1,29 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "TIL2AH1Ag033nfm9+SBL5d6wyW5zpcZhxnq29iJDlPnxzsw3bOBDEbK4vhFXRUJMO4lv2EgJ4oeg8kXrF2Vwpw==",
+  "success": true,
+  "projectFilePath": "E:\\Trey\\Coding\\DOTNET\\CalculatorEngine\\CalculatorEngineUnitTests\\CalculatorEngineUnitTests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Trey\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
+    "C:\\Users\\Trey\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
+    "C:\\Users\\Trey\\.nuget\\packages\\microsoft.net.test.sdk\\17.6.0\\microsoft.net.test.sdk.17.6.0.nupkg.sha512",
+    "C:\\Users\\Trey\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Trey\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.6.0\\microsoft.testplatform.objectmodel.17.6.0.nupkg.sha512",
+    "C:\\Users\\Trey\\.nuget\\packages\\microsoft.testplatform.testhost\\17.6.0\\microsoft.testplatform.testhost.17.6.0.nupkg.sha512",
+    "C:\\Users\\Trey\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
+    "C:\\Users\\Trey\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Trey\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
+    "C:\\Users\\Trey\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
+    "C:\\Users\\Trey\\.nuget\\packages\\nunit.analyzers\\3.6.1\\nunit.analyzers.3.6.1.nupkg.sha512",
+    "C:\\Users\\Trey\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512",
+    "C:\\Users\\Trey\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
+=======
   "dgSpecHash": "IUJpyiMayLxVdx1TKD8dtEb8ze60+enrAj5wZfnZviVQpxVwLnzXj0DyRcXlWFKQ0Nmtzl47YOoNi0uww86U1w==",
   "success": true,
   "projectFilePath": "E:\\Trey\\Coding\\DOTNET\\CalculatorEngine\\CalculatorEngineUnitTests\\CalculatorEngineUnitTests.csproj",
   "expectedPackageFiles": [],
+>>>>>>> fb878e5cfb8cbf3b9ce63fbe5886a5408a2b073e
   "logs": []
 }

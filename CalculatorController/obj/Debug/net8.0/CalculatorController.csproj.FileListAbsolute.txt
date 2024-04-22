@@ -101,3 +101,40 @@ C:\Users\Piss Boi\Documents\Coding\DOTNET\CalculatorDOTNET\CalculatorController\
 C:\Users\Piss Boi\Documents\Coding\DOTNET\CalculatorDOTNET\CalculatorController\obj\Debug\net8.0\CalculatorController.pdb
 C:\Users\Piss Boi\Documents\Coding\DOTNET\CalculatorDOTNET\CalculatorController\obj\Debug\net8.0\CalculatorController.genruntimeconfig.cache
 C:\Users\Piss Boi\Documents\Coding\DOTNET\CalculatorDOTNET\CalculatorController\obj\Debug\net8.0\ref\CalculatorController.dll
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\obj\Debug\net8.0\CalculatorController.csproj.AssemblyReference.cache
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\obj\Debug\net8.0\CalculatorController.GeneratedMSBuildEditorConfig.editorconfig
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\obj\Debug\net8.0\CalculatorController.AssemblyInfoInputs.cache
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\obj\Debug\net8.0\CalculatorController.AssemblyInfo.cs
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\obj\Debug\net8.0\CalculatorController.csproj.CoreCompileInputs.cache
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\obj\Debug\net8.0\CalculatorController.MvcApplicationPartsAssemblyInfo.cs
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\obj\Debug\net8.0\CalculatorController.MvcApplicationPartsAssemblyInfo.cache
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\obj\Debug\net8.0\CalculatorController.sourcelink.json
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\bin\Debug\net8.0\appsettings.Development.json
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\bin\Debug\net8.0\appsettings.json
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\bin\Debug\net8.0\CalculatorController.exe
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\bin\Debug\net8.0\CalculatorController.deps.json
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\bin\Debug\net8.0\CalculatorController.runtimeconfig.json
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\bin\Debug\net8.0\CalculatorController.dll
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\bin\Debug\net8.0\CalculatorController.pdb
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\bin\Debug\net8.0\Microsoft.OpenApi.dll
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\bin\Debug\net8.0\nunit.framework.dll
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\bin\Debug\net8.0\nunit.framework.legacy.dll
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\bin\Debug\net8.0\CalculatorEngine.dll
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\bin\Debug\net8.0\CalculatorEngine.pdb
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\obj\Debug\net8.0\staticwebassets.build.json
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\obj\Debug\net8.0\staticwebassets.development.json
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\obj\Debug\net8.0\staticwebassets\msbuild.CalculatorController.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\obj\Debug\net8.0\staticwebassets\msbuild.build.CalculatorController.props
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CalculatorController.props
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CalculatorController.props
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\obj\Debug\net8.0\scopedcss\bundle\CalculatorController.styles.css
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\obj\Debug\net8.0\Calculat.04DE5851.Up2Date
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\obj\Debug\net8.0\CalculatorController.dll
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\obj\Debug\net8.0\refint\CalculatorController.dll
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\obj\Debug\net8.0\CalculatorController.pdb
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\obj\Debug\net8.0\CalculatorController.genruntimeconfig.cache
+E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\obj\Debug\net8.0\ref\CalculatorController.dll

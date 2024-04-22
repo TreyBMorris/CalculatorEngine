@@ -10,7 +10,13 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CalculatorController
 build_property.RootNamespace = CalculatorController
 build_property.ProjectDir = E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController\
+<<<<<<< HEAD
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+=======
 build_property.RazorLangVersion = 7.0
+>>>>>>> fb878e5cfb8cbf3b9ce63fbe5886a5408a2b073e
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorController

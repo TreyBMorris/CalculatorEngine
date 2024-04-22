@@ -8,4 +8,10 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CalculatorEngineUnitTests
+<<<<<<< HEAD
+build_property.ProjectDir = e:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorEngineUnitTests\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+=======
 build_property.ProjectDir = E:\Trey\Coding\DOTNET\CalculatorEngine\CalculatorEngineUnitTests\
+>>>>>>> fb878e5cfb8cbf3b9ce63fbe5886a5408a2b073e

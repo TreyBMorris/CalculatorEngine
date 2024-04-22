@@ -8,6 +8,7 @@ This is a .NET 8 application, that is similar to my semester project written in 
 - [Development Environment](#development-environment)
 - [Architecture](#architecture)
 - [Executing Unit Tests](#executing-unit-tests)
+- [Deployment](#deployment)
 
 
 ## Why? 
@@ -42,3 +43,5 @@ dotnet test
 6. View the test results, if there are any failures they will be present, otherwise all tests should pass by default.
 
 
+## Deployment
+For deployment, Azure was chosen to keep within the .NET environment. (I also have a student subscription through my school). The reason for deployment is so that when a front-end is created. The server will not need to be running locally, but can be in the cloud so that it can be accessed at all time. This way, regardless of front-end framework (Vanilla JS, Angular, React, etc.) one can easily access the API and use it for their application.

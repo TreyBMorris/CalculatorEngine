@@ -9,7 +9,7 @@ This is a .NET 8 application, that is similar to my semester project written in 
 - [Architecture](#architecture)
 - [Executing Unit Tests](#executing-unit-tests)
 - [Deployment](#deployment)
-
+- [API Documentation](#api-documentation)
 
 ## Why? 
 After completing my project for the semester, I wanted to challenge myself to see if I can replicate the project again but doing it my own way. To start, the challenge was to rewrite the backend code for the project. .NET has always been something I have wanted to grow my abilities in. With this the backend is being developed in .NET. The buisiness logic, unit tests, and RESTful API are hosted on this repository. The goal is to deploy the backend as a full API, and rewrite the frontend interface in different frameworks. Notably, one front end will be written in Angular using TypeScript. Afterwards, the goal will be to use other frontend frameworks or plain JavaScript to develop the frontend. This way, I am learning about both the frontend and backend side of a project so that I can pursue my interest in being a full-stack developer.
@@ -45,3 +45,29 @@ dotnet test
 
 ## Deployment
 For deployment, Azure was chosen to keep within the .NET environment. (I also have a student subscription through my school). The reason for deployment is so that when a front-end is created the server will not need to be running locally, but can be in the cloud so that it can be accessed at all time. This way, regardless of front-end framework (Vanilla JS, Angular, React, etc.) one can easily access the API and use it for their application.
+
+## API Documentation
+This API provides endpoints for different arithmetic operations. I will give a short overview of these endpoints. 
+
+### Base URL
+The base URL for all endpoints ends with `/api/calculator`
+
+### Parameters
+- `firstNumber` (double)
+- `secondNumber` (double)
+
+### Endpoints
+All endpoints are POST requests that return the information.
+
+#### Both Parameters
+- Addition `/add`
+- Subtract `/subtract`
+- Multiply `/multiply`
+- Divide `/divide`
+- Power `/power`
+- Logarithm `/logarithm`
+- Root `/root`
+
+#### Single Parameters
+- Factorial `/factorial`
+- Receiprocal `/receiprocal`

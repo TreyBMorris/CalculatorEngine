@@ -44,4 +44,4 @@ dotnet test
 
 
 ## Deployment
-For deployment, Azure was chosen to keep within the .NET environment. (I also have a student subscription through my school). The reason for deployment is so that when a front-end is created. The server will not need to be running locally, but can be in the cloud so that it can be accessed at all time. This way, regardless of front-end framework (Vanilla JS, Angular, React, etc.) one can easily access the API and use it for their application.
+For deployment, Azure was chosen to keep within the .NET environment. (I also have a student subscription through my school). The reason for deployment is so that when a front-end is created the server will not need to be running locally, but can be in the cloud so that it can be accessed at all time. This way, regardless of front-end framework (Vanilla JS, Angular, React, etc.) one can easily access the API and use it for their application.

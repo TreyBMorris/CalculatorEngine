@@ -1,4 +1,5 @@
-﻿using CalculatorEngine;
+﻿using CalculatorController.Model;
+using CalculatorEngine;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CalculatorController.Controllers
@@ -13,66 +14,66 @@ namespace CalculatorController.Controllers
 			engine = calculatorEngineMethods;
 		}
 
-		[HttpGet("add")]
-		public IActionResult Add(double firstNumber, double secondNumber)
+		[HttpPost("add")]
+		public IActionResult Add([FromBody] CalculationRequest request)
 		{
-			var result = engine.Add(firstNumber, secondNumber);
+			var result = engine.Add(request.FirstNumber, request.SecondNumber);
 			return Ok(result);
 		}
 
-		[HttpGet("subtract")]
-		public IActionResult Subtract(double firstNumber, double secondNumber)
+		[HttpPost("subtract")]
+		public IActionResult Subtract([FromBody] CalculationRequest request)
 		{
-			var result = engine.Subtract(firstNumber, secondNumber);
+			var result = engine.Subtract(request.FirstNumber, request.SecondNumber);
 			return Ok(result);
 		}
 
-		[HttpGet("multiply")]
-		public IActionResult Multiply(double firstNumber, double secondNumber)
+		[HttpPost("multiply")]
+		public IActionResult Multiply([FromBody] CalculationRequest request)
 		{
-			var result = engine.Multiply(firstNumber, secondNumber);
+			var result = engine.Multiply(request.FirstNumber, request.SecondNumber);
 			return Ok(result);
 		}
 
-		[HttpGet("divide")]
-		public IActionResult Divide(double firstNumber, double secondNumber)
+		[HttpPost("divide")]
+		public IActionResult Divide([FromBody] CalculationRequest request)
 		{
-			var result = engine.Divide(firstNumber, secondNumber);
+			var result = engine.Divide(request.FirstNumber, request.SecondNumber);
 			return Ok(result);
 		}
 
-		[HttpGet("power")]
-		public IActionResult Power(double firstNumber, double secondNumber)
+		[HttpPost("power")]
+		public IActionResult Power([FromBody] CalculationRequest request)
 		{
-			var result = engine.Power(firstNumber, secondNumber);
+			var result = engine.Power(request.FirstNumber, request.SecondNumber);
 			return Ok(result);
 		}
 
-		[HttpGet("logarithm")]
-		public IActionResult Logarithm(double firstNumber, double secondNumber)
+		[HttpPost("logarithm")]
+		public IActionResult Logarithm([FromBody] CalculationRequest request)
 		{
-			var result = engine.Logarithm(firstNumber, secondNumber);
+			var result = engine.Logarithm(request.FirstNumber, request.SecondNumber);
 			return Ok(result);
 		}
 
-		[HttpGet("root")]
-		public IActionResult Root(double firstNumber, double secondNumber)
+		[HttpPost("root")]
+		public IActionResult Root([FromBody] CalculationRequest request)
 		{
-			var result = engine.Root(firstNumber, secondNumber);
+			var result = engine.Root(request.FirstNumber, request.SecondNumber);
 			return Ok(result);
 		}
 
-		[HttpGet("factorial")]
-		public IActionResult Factorial(double firstNumber)
+		[HttpPost("factorial")]
+		public IActionResult Factorial([FromBody] CalculationRequest request)
 		{
-			var result = engine.Factorial(firstNumber);
+			var result = engine.Factorial(request.FirstNumber);
 			return Ok(result);
 		}
 
-		[HttpGet("reciprocal")]
-		public IActionResult Reciprocal(double firstNumber)
+		[HttpPost("reciprocal")]
+		public IActionResult Reciprocal([FromBody] CalculationRequest request)
 		{
-			var result = engine.Reciprocal(firstNumber);
+			var result = engine.Reciprocal(request.FirstNumber);
 			return Ok(result);
 		}
 	}

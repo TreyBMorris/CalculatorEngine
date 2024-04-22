@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "TIL2AH1Ag033nfm9+SBL5d6wyW5zpcZhxnq29iJDlPnxzsw3bOBDEbK4vhFXRUJMO4lv2EgJ4oeg8kXrF2Vwpw==",
   "success": true,
   "projectFilePath": "E:\\Trey\\Coding\\DOTNET\\CalculatorEngine\\CalculatorEngineUnitTests\\CalculatorEngineUnitTests.csproj",
@@ -18,5 +19,11 @@
     "C:\\Users\\Trey\\.nuget\\packages\\nunit3testadapter\\4.2.1\\nunit3testadapter.4.2.1.nupkg.sha512",
     "C:\\Users\\Trey\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
+=======
+  "dgSpecHash": "IUJpyiMayLxVdx1TKD8dtEb8ze60+enrAj5wZfnZviVQpxVwLnzXj0DyRcXlWFKQ0Nmtzl47YOoNi0uww86U1w==",
+  "success": true,
+  "projectFilePath": "E:\\Trey\\Coding\\DOTNET\\CalculatorEngine\\CalculatorEngineUnitTests\\CalculatorEngineUnitTests.csproj",
+  "expectedPackageFiles": [],
+>>>>>>> fb878e5cfb8cbf3b9ce63fbe5886a5408a2b073e
   "logs": []
 }

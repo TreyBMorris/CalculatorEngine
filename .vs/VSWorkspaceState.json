@@ -1,10 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+<<<<<<< HEAD
     "\\CalculatorController",
     "\\CalculatorController\\Controllers",
+=======
+>>>>>>> fb878e5cfb8cbf3b9ce63fbe5886a5408a2b073e
     "\\CalculatorEngineUnitTests"
   ],
-  "SelectedNode": "\\Calculator.sln",
+  "SelectedNode": "\\CalculatorEngineUnitTests\\CalculatorEngineUnitTests.cs",
   "PreviewInSolutionExplorer": false
 }

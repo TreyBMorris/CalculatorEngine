@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "ZPQ+ArAM64SdlvevSB+mHEYBFvHMk8hVdHYv2ibTJ+eLOEvBY8nHWvg7/OFt9nlax0j7EHhkxZ++NwkvQncasQ==",
   "success": true,
   "projectFilePath": "E:\\Trey\\Coding\\DOTNET\\CalculatorEngine\\CalculatorController\\CalculatorController.csproj",
@@ -13,5 +14,11 @@
     "C:\\Users\\Trey\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
     "C:\\Users\\Trey\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
   ],
+=======
+  "dgSpecHash": "EfZdcIA4S8gk6IDaZ1qqcdPnq6wHiohqUu/iqWxE4BB1/dipiAUgEVVQ5RsyA7dBZjTV2/Ltw37e8CEFvnNcDg==",
+  "success": true,
+  "projectFilePath": "E:\\Trey\\Coding\\DOTNET\\CalculatorEngine\\CalculatorController\\CalculatorController.csproj",
+  "expectedPackageFiles": [],
+>>>>>>> fb878e5cfb8cbf3b9ce63fbe5886a5408a2b073e
   "logs": []
 }

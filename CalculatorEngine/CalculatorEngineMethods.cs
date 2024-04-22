@@ -7,9 +7,9 @@ using System.Xml.XPath;
 
 namespace CalculatorEngine
 {
-	public class CalculatorEngineMethods
+	public class CalculatorEngineMethods : ICalculatorEngineMethods
 	{
-		public static CalculationResult Add(double firstNumber, double secondNumber)
+		public CalculationResult Add(double firstNumber, double secondNumber)
 		{
 			CalculationResult result = new CalculationResult();
 			result.IsSuccess = true;
@@ -19,7 +19,7 @@ namespace CalculatorEngine
 			return result;
 		}
 		
-		public static CalculationResult Subtract(double firstNumber, double secondNumber) 
+		public CalculationResult Subtract(double firstNumber, double secondNumber) 
 		{
 			CalculationResult result = new CalculationResult();
 			result.IsSuccess = true;
@@ -29,7 +29,7 @@ namespace CalculatorEngine
 			return result;
 		}
 
-		public static CalculationResult Multiply(double firstNumber, double secondNumber) 
+		public CalculationResult Multiply(double firstNumber, double secondNumber) 
 		{
 			CalculationResult result = new CalculationResult();
 			result.IsSuccess = true;
@@ -38,7 +38,7 @@ namespace CalculatorEngine
 			result.Operation = firstNumber + " * " + secondNumber + "= ";
 			return result;
 		}
-		public static CalculationResult Divide(double firstNumber, double secondNumber)
+		public CalculationResult Divide(double firstNumber, double secondNumber)
 		{
 			CalculationResult result = new CalculationResult();
 			result.Operation = firstNumber + " / " + secondNumber + "= ";
@@ -46,7 +46,7 @@ namespace CalculatorEngine
 			{
 				if(secondNumber == 0)
 				{
-					throw new DivisionByZeroException("Not a number");
+					throw new DivideByZeroException("Not a number");
 				}
 				result.Result = firstNumber/ secondNumber;
 				result.IsSuccess = true;
@@ -61,7 +61,7 @@ namespace CalculatorEngine
 			return result;
 		}
 
-		public static CalculationResult Power(double firstNumber, double secondNumber) 
+		public CalculationResult Power(double firstNumber, double secondNumber) 
 		{
 			CalculationResult result = new CalculationResult();
 			result.Operation = firstNumber + " ^ " + secondNumber + "= ";
@@ -71,7 +71,7 @@ namespace CalculatorEngine
 			return result;
 		}
 		
-		public static CalculationResult Logarithm(double firstNumber, double secondNumber) 
+		public CalculationResult Logarithm(double firstNumber, double secondNumber) 
 		{
 			CalculationResult result = new CalculationResult();
 			result.Operation = firstNumber + " log " + secondNumber + "= ";
@@ -99,7 +99,7 @@ namespace CalculatorEngine
 			return result;
 		}
 
-		public static CalculationResult Root(double firstNumber, double secondNumber)
+		public CalculationResult Root(double firstNumber, double secondNumber)
 		{
 			CalculationResult result = new CalculationResult();
 			result.Operation = secondNumber + " √ " + firstNumber + " =";
@@ -119,6 +119,58 @@ namespace CalculatorEngine
 				result.Result = 0.0;
 				result.IsSuccess = false;
 				result.Error= e.Message;
+			}
+			return result;
+		}
+
+		public CalculationResult Factorial(double firstNumber)
+		{
+			CalculationResult result = new CalculationResult();
+			result.Operation = firstNumber + "! =";
+			if (firstNumber == 0)
+			{
+				result.IsSuccess = true;
+				result.Error = "";
+				result.Result = 1;
+			}
+			else
+			{
+				int factorialNum = 1;
+				for (int i = 1; i <= firstNumber; i++)
+				{
+					factorialNum *= i;
+				}
+
+				result.IsSuccess = true;
+				result.Error = "";
+				result.Result = factorialNum;
+			}
+
+			return result;
+		}
+
+
+		public CalculationResult Reciprocal(double firstNumber)
+		{
+			CalculationResult result = new CalculationResult();
+			result.Operation = "1/" + firstNumber + " =";
+
+			try
+			{
+				if (firstNumber == 0)
+				{
+					throw new DivideByZeroException("Not a number");
+				}
+
+				result.IsSuccess = true;
+				result.Error = "";
+				result.Result = (1 / firstNumber);
+			}
+			catch (DivideByZeroException e)
+			{
+				result.Result = 0.0;
+				result.Error = e.Message;
+				result.IsSuccess = false;
 			}
 			return result;
 		}

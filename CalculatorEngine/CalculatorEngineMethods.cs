@@ -15,7 +15,7 @@ namespace CalculatorEngine
 			result.IsSuccess = true;
 			result.Error = "";
 			result.Result = firstNumber + secondNumber;
-			result.Operation = firstNumber + " + " + secondNumber + "= ";
+			result.Operation = firstNumber + " + " + secondNumber + " = ";
 			return result;
 		}
 		
@@ -25,7 +25,7 @@ namespace CalculatorEngine
 			result.IsSuccess = true;
 			result.Error = "";
 			result.Result= firstNumber - secondNumber;
-			result.Operation = firstNumber + " - " + secondNumber + "= ";
+			result.Operation = firstNumber + " - " + secondNumber + " = ";
 			return result;
 		}
 
@@ -35,13 +35,13 @@ namespace CalculatorEngine
 			result.IsSuccess = true;
 			result.Error = "";
 			result.Result = firstNumber * secondNumber;
-			result.Operation = firstNumber + " * " + secondNumber + "= ";
+			result.Operation = firstNumber + " * " + secondNumber + " = ";
 			return result;
 		}
 		public CalculationResult Divide(double firstNumber, double secondNumber)
 		{
 			CalculationResult result = new CalculationResult();
-			result.Operation = firstNumber + " / " + secondNumber + "= ";
+			result.Operation = firstNumber + " / " + secondNumber + " = ";
 			try
 			{
 				if(secondNumber == 0)
@@ -64,7 +64,7 @@ namespace CalculatorEngine
 		public CalculationResult Power(double firstNumber, double secondNumber) 
 		{
 			CalculationResult result = new CalculationResult();
-			result.Operation = firstNumber + " ^ " + secondNumber + "= ";
+			result.Operation = firstNumber + " ^ " + secondNumber + " = ";
 			result.IsSuccess = true;
 			result.Error = "";
 			result.Result = Math.Pow(firstNumber, secondNumber);
@@ -74,7 +74,7 @@ namespace CalculatorEngine
 		public CalculationResult Logarithm(double firstNumber, double secondNumber) 
 		{
 			CalculationResult result = new CalculationResult();
-			result.Operation = firstNumber + " log " + secondNumber + "= ";
+			result.Operation = firstNumber + " log " + secondNumber + " = ";
 			try
 			{
 				if(firstNumber==0)
@@ -102,7 +102,7 @@ namespace CalculatorEngine
 		public CalculationResult Root(double firstNumber, double secondNumber)
 		{
 			CalculationResult result = new CalculationResult();
-			result.Operation = secondNumber + " √ " + firstNumber + " =";
+			result.Operation = secondNumber + " √ " + firstNumber + " = ";
 			try
 			{
 				if(secondNumber == 0)
@@ -126,7 +126,7 @@ namespace CalculatorEngine
 		public CalculationResult Factorial(double firstNumber)
 		{
 			CalculationResult result = new CalculationResult();
-			result.Operation = firstNumber + "! =";
+			result.Operation = firstNumber + "! = ";
 			if (firstNumber == 0)
 			{
 				result.IsSuccess = true;
@@ -153,7 +153,7 @@ namespace CalculatorEngine
 		public CalculationResult Reciprocal(double firstNumber)
 		{
 			CalculationResult result = new CalculationResult();
-			result.Operation = "1/" + firstNumber + " =";
+			result.Operation = "1/" + firstNumber + " = ";
 
 			try
 			{
